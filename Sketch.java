@@ -14,22 +14,32 @@ public class Sketch extends PApplet {
 
   public void draw() {
 	  
-	
-    stroke(255);
+    
+    //The Roof
+    stroke(152, 251, 152);
     line(125, 250, 125, 500);
     line(375, 250, 375, 500);  
     line(125, 250, 375, 250);
-
-    stroke(255,0,0);
-    rect(210,400,80,490);
-    fill(0,0,0);
     
-    stroke(21,244,238);
-    line(375,250,250,150);
-    line(125,250,250,150);
+    //The body of the house
+    stroke(255, 0, 0);
+    fill(0, 0, 0);
+    rect(210, 400, 80, 490);
+    
+    //The Door
+    stroke(21, 244, 238);
+    line(375, 250, 250, 150);
+    line(125, 250, 250, 150);
 
-    stroke(255,247,0);
-    ellipse(280,455,10,10);
+    //The Doorknob
+    stroke(255, 247, 0);
+    ellipse(280, 455, 10, 10);
+
+    //The Moon
+    stroke(255);
+    fill(255);
+    ellipse(0, 0, 250, 250);
+    
     
   }
   
